@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+  em HTML é  id = # em css
+  em HTML é  class = . em css
+*/
+
+body{
+  background-color: rgb(204, 129, 219);
+  font-family: sans-serif;
+
+}
+/* Seletor Genérico*/
+h1{
+  color:rgb(135, 11, 103) ;
+
+}
+/* Seletor personalizado*/
+h1#principal{
+  text-align: center;
+  background-color: rgb(112, 108, 158);
+  color: white;
+
+}
+h2{
+  color:rgb(135, 11, 150);
+
+}
+
+.basico{
+  color: rgb(48, 180, 8) ;
+
+}
+
+.intermediario{
+  color: rgb(221, 200, 19) ;
+
+}
+
+.avancado{
+  color: rgb(218, 23, 23) ;
+
+}
+
+.destaque{
+  background-color: rgb(208, 82, 115);
+}
